@@ -1,5 +1,6 @@
 import { app } from "./app";
 import "dotenv/config";
+import { connect } from "mongoose";
 const checkEnv = () => {
   const env = [
     "PORT",
@@ -17,8 +18,17 @@ const checkEnv = () => {
     }
   });
 };
-const initServer = () => {
+const initServer = async () => {
   checkEnv();
+
+  try {
+    await connect(process.env.MONGO_URI!);
+    console.log("Mongo Connected");
+  } catch (err) {
+    if (err instanceof Error) console.log(err.message);
+    process.exit(1);
+  }
+
   app.listen(process.env.PORT, () => {
     console.log("server running");
   });
