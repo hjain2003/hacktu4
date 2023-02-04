@@ -1,0 +1,22 @@
+---
+name: Prettier
+on:
+  - pull_request_target
+jobs:
+  run-linters:
+    name: Prettier Check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out Git repository
+        uses: actions/checkout@v3
+      - name: Set up Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 18
+#       - name: Install Node.js dependencies
+#         run: npm install
+      - name: Prettier
+        uses: creyD/prettier_action@v4.2
+        with:
+         prettier_options: --write **/*.{js,md,ts}
+         only_changed: True
