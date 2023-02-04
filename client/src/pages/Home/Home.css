@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper_row{
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    border:2px solid black;
+    margin-top: 85px;
+}
+#cards_section_col{
+    display: flex;
+    flex-direction: column;
+}
+#profile_stats{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#profile{
+    height: 300px;
+    width: 300px;
+    border-radius: 25px;
+    border:2px solid black;
+    padding: 10px;
+}
+#stocks{
+    margin-top: 30px;
+    height:100px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 10px;
+}
+#games_article_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* height: 400px; */
+    width: 1150px;
+    margin-top: 50px;
+    border: 2px solid black;
+}
+#game_card,#article_card{
+    height: 200px;
+    width: 500px;
+    border:2px solid black;
+    border-radius: 25px;
+    padding: 10px;    
+}
+
+#Learn_row{
+    width:1150px;
+    height: 300px;
+    border:2px solid black;
+    /* padding: 5px; */
+}
+#Learn_row h2{
+    margin-left: 55px;
+    margin-top: 20px;
+}
