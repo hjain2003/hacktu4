@@ -1,6 +1,6 @@
 ---
 name: Lint
-on: push
+on: pull_request_target
 jobs:
   run-linters:
     name: Run linters
@@ -18,5 +18,4 @@ jobs:
         uses: wearerequired/lint-action@v1
         with:
           github_token: ${{ secrets.github_token }}
-          eslint: true
           prettier: true
