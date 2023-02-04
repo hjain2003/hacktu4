@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "flickity": "^2.3.0",
+    "react-flickity-component": "^4.0.1",
+    "react-icons": "^4.7.1"
+  }
+}
