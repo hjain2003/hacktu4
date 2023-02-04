@@ -1,11 +1,10 @@
 ---
-name: Lint
+name: Prettier
 on:
-  - push
   - pull_request_target
 jobs:
   run-linters:
-    name: Run linters
+    name: Prettier Check
     runs-on: ubuntu-latest
     steps:
       - name: Check out Git repository
