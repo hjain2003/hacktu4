@@ -3,10 +3,10 @@ import '../Card/Card.css';
 import { FaPlayCircle } from "react-icons/fa";
 
 
-const Card = () => {
+const Card = (props) => {
   return (
     <div id="card_wrapper_col">
-        <div id="img">Stocks</div>
+        <div id="img">{props.name}</div>
         <div id="card_info_row">
             <h3>5<h6>Chapters</h6></h3>
             <div id="line"></div>

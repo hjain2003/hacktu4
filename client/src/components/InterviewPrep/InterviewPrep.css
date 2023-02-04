@@ -1,0 +1,39 @@
+#learn_cards{
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    align-items: center;
+    padding:10px;
+    height:200px;
+    width:800px;
+    /* border:2px solid green; */
+    margin-left: 145px;
+}
+.carousel{
+    /* height: 200px; */
+    width: 780px;
+    /* border:2px solid purple; */
+    padding: 10px;
+}
+#next_prev_btn{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    /* border: 2px solid black; */
+}
+#prev_btn,#next_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:40px;
+    width:40px;
+    border-radius: 100%;
+    border:none;
+    background-color: black;
+}
+#InterviewPrep{
+    width:1150px;
+    border:2px solid black;
+    margin-left: 0px;
+}

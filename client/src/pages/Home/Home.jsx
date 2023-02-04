@@ -1,9 +1,13 @@
 import React from 'react'
 import Card from '../../components/Card/Card';
+import InterviewPrep from '../../components/InterviewPrep/InterviewPrep';
+import LearnSlider from '../../components/LearnSlider/LearnSlider';
 import Navbar from '../../components/Navbar/Navbar';
-import '../Home/Home.css'
+import '../Home/Home.css';
+
 
 const Home = () => {
+
     return (
         <>
             <Navbar />
@@ -20,7 +24,17 @@ const Home = () => {
                     </div>
                     <div id="Learn_row">
                         <h2>LEARN</h2>
+                        <br /><br />
+                       <LearnSlider/>
                     </div>
+                    <div id="IP_Wrapper">
+                    <div id="InterviewPrep">
+                        <h2>INTERVIEW PREP</h2>
+                        <br /><br /><br />
+                        <InterviewPrep/>
+                    </div>
+                    </div>
+                    
                 </div>
                 <div id="profile_stats">
                     <div id="profile">

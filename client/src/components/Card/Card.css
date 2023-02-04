@@ -17,7 +17,6 @@
     border:2px solid black;
     padding: 2px;
     /* margin-bottom: 10px; */
-    z-index: 0;
 }
 #img{
     display: flex;
@@ -28,7 +27,9 @@
     justify-content: center;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    z-index: 0;
+}
+#img:hover{
+    transform: scale(1.1);
 }
 #chapters,#topics{
     font-size: 20px;
@@ -44,7 +45,6 @@
     /* border: 1px solid black; */
 }
 #circle_play{
-    z-index:1;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -53,6 +53,9 @@
     width: 40px;
     border:2px solid black;
     margin-top: -20px;
+}
+#circle_play:hover{
+    transform: scale(1.1);
 }
 #card_info_row h6{
     margin-bottom: 20px;

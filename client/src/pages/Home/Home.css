@@ -6,7 +6,7 @@
 #wrapper_row{
     display: flex;
     flex-direction: row;
-    height: 600px;
+    /* height: 600px; */
     border:2px solid black;
     margin-top: 85px;
 }
@@ -54,11 +54,15 @@
 
 #Learn_row{
     width:1150px;
-    height: 300px;
+    /* height: 300px; */
     border:2px solid black;
     /* padding: 5px; */
 }
 #Learn_row h2{
+    margin-left: 55px;
+    margin-top: 20px;
+}
+#IP_Wrapper h2{
     margin-left: 55px;
     margin-top: 20px;
 }
