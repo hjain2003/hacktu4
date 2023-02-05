@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "browser-router": "^0.2.0",
     "flickity": "^2.3.0",
     "react-flickity-component": "^4.0.1",
     "react-icons": "^4.7.1",
